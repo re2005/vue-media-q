@@ -17,5 +17,23 @@ export interface VueMediaQueryOptionsInterface {
 export declare type VueMediaQuery = {
     install(vue: VueConstructor<Vue>, options?: VueMediaQueryOptionsInterface): void;
 };
+
 declare const instance: VueMediaQuery;
 export default instance;
+
+declare module 'vue/types/vue' {
+
+    interface Vue {
+        $vmq: VueMediaQueryInterface;
+    }
+
+    interface VueConstructor {
+        $vmq: VueMediaQueryInterface;
+    }
+}
+
+declare module 'vue/types/options' {
+    interface ComponentOptions<V extends Vue> {
+        $vmq?: VueMediaQueryInterface;
+    }
+}
