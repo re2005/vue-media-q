@@ -17,7 +17,7 @@ This is a minimimalistc vue plugin to help frontenders building cool UI by manag
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ npm i vue-media-query --save
+$ npm i vue-media-q --save
 ```
 
 Usage

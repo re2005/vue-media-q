@@ -1,14 +1,29 @@
 {
-    "name": "vue-media-query",
-    "version": "0.0.1",
-    "description": "Minimalist vue media query helper",
-    "author": "Renato Cardoso <re2005@gmail.com>",
-    "main": "dist/vue-media-query.umd.min.js",
-    "dependencies": {
-        "vue": "^2.6.10"
-    },
-    "devDependencies": {
-    },
-    "license": "gpl-3.0",
-    "typings": "types/main.d.ts"
+  "name": "vue-media-q",
+  "version": "0.0.1",
+  "description": "Minimalist vue media query helper",
+  "author": "Renato Cardoso <re2005@gmail.com>",
+  "main": "dist/vue-media-query.umd.min.js",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {},
+  "license": "GPL-3.0-or-later",
+  "typings": "types/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re2005/vue-media-query.git"
+  },
+  "keywords": [
+    "vue",
+    "media-query",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/re2005/vue-media-query/issues"
+  },
+  "homepage": "https://github.com/re2005/vue-media-query#readme"
 }
