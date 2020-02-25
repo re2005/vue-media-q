@@ -1,4 +1,4 @@
-# Vue Media Query
+# Vue Media Q
 
 
 This is a minimimalistc vue plugin to help frontenders building cool UI by managing what should be visible on each screen size.
