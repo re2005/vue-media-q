@@ -1,5 +1,5 @@
 import Vue, {VueConstructor} from 'vue';
-import {VueMediaQueryInterface, VueMediaQueryOptionsInterface} from '@/plugins/vue-media-query/types/main';
+import {VueMediaQueryInterface, VueMediaQueryOptionsInterface} from './types/main';
 
 export type vueMediaQuery = {
     install(vue: VueConstructor<Vue>, options: VueMediaQueryOptionsInterface): void;
