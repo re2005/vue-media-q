@@ -1,15 +1,15 @@
 {
     "name": "vue-media-q",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Minimalist vue media query helper",
     "author": "Renato Cardoso <re2005@gmail.com>",
     "main": "index.ts",
     "types": "types/main.d.ts",
     "dependencies": {
-        "vue": "^2.6.10"
+        "vue": "^2.6.12"
     },
     "devDependencies": {
-        "typescript": "~3.5.3"
+        "typescript": "~3.9.7"
     },
     "license": "GPL-3.0-or-later",
     "typings": "types/main.d.ts",
