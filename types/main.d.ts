@@ -5,6 +5,7 @@ export interface VueMediaQueryInterface {
     sm: boolean;
     md: boolean;
     lg: boolean;
+    size: number;
 }
 
 export interface VueMediaQueryOptionsInterface {
