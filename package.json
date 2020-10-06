@@ -1,6 +1,6 @@
 {
     "name": "vue-media-q",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Minimalist vue media query helper",
     "author": "Renato Cardoso <re2005@gmail.com>",
     "main": "index.ts",
